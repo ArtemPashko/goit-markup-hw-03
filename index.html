@@ -31,7 +31,7 @@
     </header>
 
     <main>
-        <section class="section-hero section">
+        <section class="section-hero">
                     <div class="conteiner ">
                         <h1 class="title">
                             Ефективні рішення для вашого бізнесу
@@ -71,7 +71,7 @@
                 Чим ми займаємося
             </h2>
             <ul class="item">
-                <li> <img src="./images/about_img_1.jpg" alt="робота з комрьютером" width="370"></li>
+                <li> <img src="./images/about_img_1.jpg" alt="робота з компьютером" width="370"></li>
                 <li> <img src="./images/about_img_2.jpg" alt="робота з мобільним телефоном" width="370"></li>
                 <li> <img src="./images/about_img_3.jpg" alt="робота з планшетом" width="370"></li>
             </ul>
@@ -84,26 +84,35 @@
     Наша команда
 </h2>
 <ul class="item ">
-    <li>
+    <li class="employees">
         <img src="./images/team_card_1.jpg" alt="дизайнер продукту" width="270" height="260">
-        <h3 class="name">Ігор Дем'яненко</h3>
-        <p class="about">Product Designer</p>
+        <div class="employees-about">
+            <h3 class="name">Ігор Дем'яненко</h3>
+            <p class="about">Product Designer</p>
+        </div>
     </li>
-    <li>
+    <li class="employees">
         <img src="./images/team_card_2.jpg" alt="розробник інтерфейсу" width="270" height="260">
-        <h3 class="name">Ольга Рєпіна</h3>
-        <p class="about">Frontend Developer</p>
-    </li>
-    <li>
-        <img src="./images/team_card_3.jpg" alt="маркетолог" width="270" height="260">
-        <h3 class="name">Микола Тарасов</h3>
-        <p class="about">Marketing</p>
-    </li>
-    <li>
-        <img src="./images/team_card_4.jpg" alt="дизайнер интерфейсу" width="270" height="260">
-        <h3 class="name">Михайло Єрмаков</h3>
-        <p class="about">UI Designer</p>
+        <div class="employees-about">
+                    <h3 class="name">Ольга Рєпіна</h3>
+                    <p class="about">Frontend Developer</p>
+        </div>
 
+    </li>
+    <li class="employees">
+        <img src="./images/team_card_3.jpg" alt="маркетолог" width="270" height="260">
+        <div class="employees-about">
+                    <h3 class="name">Микола Тарасов</h3>
+                    <p class="about">Marketing</p>
+        </div>
+
+    </li>
+    <li class="employees">
+        <img src="./images/team_card_4.jpg" alt="дизайнер интерфейсу" width="270" height="260">
+        <div class="employees-about">
+                    <h3 class="name">Михайло Єрмаков</h3>
+                    <p class="about">UI Designer</p>
+        </div>
     </li>
 </ul>
           </div>
@@ -113,12 +122,12 @@
     <footer> 
         <div class="conteiner footer-container">
                     <a href="./index.html" class="logo-footer"> Web<span class="logo-white">Studio</span> </a>
-                    <address id="contacts">
+                    <address class="contacts-footer" id="contacts">
                         <ul class="item-footer">
-                            <li class="address-footer"> <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow"
+                            <li > <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow"
                                     class="address">м. Київ, пр-т Лесі Українки, 26</a> </li>
-                            <li class="mail-footer"> <a href="mailto:info@devstudio.com" class="mail"> info@devstudio.com</a> </li>
-                            <li class="phone-footer"> <a href="tel:+380961111111" class="phone"> +38 096 111 11 11 </a></li>
+                            <li class="address-footer"> <a href="mailto:info@devstudio.com" class="mail"> info@devstudio.com</a> </li>
+                            <li class="address-footer"> <a href="tel:+380961111111" class="phone"> +38 096 111 11 11 </a></li>
                         </ul>
                     </address>
         </div>
