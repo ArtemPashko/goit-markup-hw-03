@@ -44,7 +44,7 @@ letter-spacing: 0.03em;
  /* header */
 .page-header-conteiner{
 display: flex;
-align-items: baseline;
+align-items: center;
 }
 
 
